@@ -89,11 +89,11 @@ public class Job {
     public String toString() {
         return "\n" +
                 "ID: " + id + "\n" +
-                "Name: " + StringUtils.defaultIfBlank(name, "Data Not Available") + "\n" +
-                "Employer: " + StringUtils.defaultIfBlank(employer != null ? employer.toString() : null, "Data Not Available") + "\n" +
-                "Location: " + StringUtils.defaultIfBlank(location != null ? location.toString() : null, "Data Not Available") + "\n" +
-                "Position Type: " + StringUtils.defaultIfBlank(positionType != null ? positionType.toString() : null, "Data Not Available") + "\n" +
-                "Core Competency: " + StringUtils.defaultIfBlank(coreCompetency != null ? coreCompetency.toString() : null, "Data Not Available") + "\n";
+                "Name: " + StringUtils.defaultIfBlank(name, "Data not available") + "\n" +
+                "Employer: " + StringUtils.defaultIfBlank(employer != null ? employer.toString() : null, "Data not available") + "\n" +
+                "Location: " + StringUtils.defaultIfBlank(location != null ? location.toString() : null, "Data not available") + "\n" +
+                "Position Type: " + StringUtils.defaultIfBlank(positionType != null ? positionType.toString() : null, "Data not available") + "\n" +
+                "Core Competency: " + StringUtils.defaultIfBlank(coreCompetency != null ? coreCompetency.toString() : null, "Data not available") + "\n";
     }
 
 

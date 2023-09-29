@@ -36,11 +36,11 @@ public class JobTest {
         //System.out.println("jobString = " + jobString);
 
         assertTrue(jobString.contains("ID: "));
-        assertTrue(jobString.contains("Name: Data Not Available"));
-        assertTrue(jobString.contains("Employer: Data Not Available"));
-        assertTrue(jobString.contains("Location: Data Not Available"));
-        assertTrue(jobString.contains("Position Type: Data Not Available"));
-        assertTrue(jobString.contains("Core Competency: Data Not Available"));
+        assertTrue(jobString.contains("Name: Data not available"));
+        assertTrue(jobString.contains("Employer: Data not available"));
+        assertTrue(jobString.contains("Location: Data not available"));
+        assertTrue(jobString.contains("Position Type: Data not available"));
+        assertTrue(jobString.contains("Core Competency: Data not available"));
     }
 
     @Test
